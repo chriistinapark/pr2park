@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html">
+                    <img src='images/Logo.svg' alt="Bootstrap" width="30" height="24">
+                </a>
+                  <a class="navbar-brand" href="index.html">eatly</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="menu.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 navbar-nav_right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link_purple" aria-current="page" href="signin.html">Sign up</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    </div>
+
+    <div class="signup row">
+        <div class="col">
+            <div>
+                <div class="col signup_container">
+                    <h3>Sign In To eatly</h3>
+                    <form action="/example/handler.php" method="post" class="signup_form">
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your email " required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn signin-btn" id="liveAlertBtn"><p>Send Now</p></button>
+                    </form>
+                    <a class="forget" href="forget.html">Forget Password?</a>
+                    <p>Create A New Account? <a href="signup.html">Sign Up</a></p>
+                </div>
+            </div>
+            <div class="privacy">
+                <p>Privacy Policy</p>
+                <p>Copyright 2022</p>
+            </div>
+        </div>
+        <div class="col signup_block">
+            <div>
+                <img src="images/main.png" alt="food">
+                <h3>Find Foods With Love </h3>
+                <p>Eatly Is The Food Delivery Dashboard And Having More Than 2K+ Dishes <br>Including Asian, Chinese, Italians And Many More. Our Dashboard <br>Helps You To Manage Orders And Money.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar_footer1">
+                <div>
+                    <a href="index.html">
+                        <img src='images/Logo.svg' alt="Bootstrap" width="30" height="24">
+                    </a>
+                      <a class="navbar-brand_footer navbar-brand" href="index.html">eatly</a>
+                </div>
+                  <div class="collapse navbar-collapse navbar-div" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 navbar-nav_rightfooter navbar-end">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="menu.html">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                          </li>
+                          <li class="nav-item nav-item_contact">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                  </div>
+              </nav>
+    
+
+    <nav class="navbar navbar-expand-lg navbar_footer">
+        <p>© 2023 EATLY All Rights Reserved.</p>
+        <div class="collapse navbar-collapse navbar-div" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 navbar-nav_rightfooter navbar-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="images/insta.png" alt="Instagram" >
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="images/linkedin.png" alt="LinkedIn" >
+                    </a>
+                </li>
+                <li class="nav-item nav-item_contact">
+                    <a class="nav-link" href="#">
+                        <img src="images/facebook.png" alt="Facebook" a>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="images/twitter.png" alt="Twitter" >
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Your message has been sent', 'success')
+  })
+}
+    </script>
+</body>
+</html>
