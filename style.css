@@ -1198,14 +1198,14 @@ label {
   }
 
   .premium .col {
-    margin-top: 138px;
+    margin-top: 85px;
 }
 
   .premium h2 {
   font-family: Poppins;
   font-weight: 700;
   font-size: 45px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   color: #18181B;
 }
 
@@ -1216,7 +1216,8 @@ label {
   .premium li {
   color: #676767;
   font-size: 20px;
-  margin-bottom: 19px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .dishes-card {
